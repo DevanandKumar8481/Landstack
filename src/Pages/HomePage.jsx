@@ -2,10 +2,10 @@ import digitalindia from "../assets/digitalindia.svg";
 import LandMap from "../assets/landMap.jpeg";
 import AffiliatedDepartments from "../Components/affilated";
 import { Link } from "react-router-dom";
-import Landrecord from "../icons/landrecord.png";
-import Landmap from "../icons/landmap.jpg";
+import Landrecord from "../icons/Landrecord.png";
+import Landmap from "../icons/Landmap.jpg";
 import Verification from "../icons/Verification.jpg";
-import Mutation from "../icons/mutation.png";
+import Mutation from "../icons/Mutation.png";
 import {
   MapPinned,
   FileText,
