@@ -12,6 +12,8 @@ import Reports from "./Pages/Reports";
 import Register from "./Pages/Register";
 import AllServicesPage from "./Pages/Services";
 import Applications from "./Pages/Applications";
+import Ownership from "./Pages/Ownership";
+import Mutation from "./Pages/Mutation";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/register" element={<Register/>} />
         <Route path="/services" element={<AllServicesPage />} />
         <Route path="/Applications" element={<Applications />} />
+        <Route path="/ownership" element={<Ownership/>} />
+        <Route path="/Mutation" element={<Mutation/>} />
       </Routes>
     </>
   );

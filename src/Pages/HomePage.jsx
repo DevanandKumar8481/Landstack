@@ -333,7 +333,7 @@ function HomePage() {
                 iconAlt="Land Records"
                 title="Land Records"
                 description="View and download digital land ownership records."
-                to="/land-records"
+                to="/landrecords"
               />
               <ServiceCard
                 iconSrc={Landmap}
@@ -347,14 +347,14 @@ function HomePage() {
                 iconAlt="Ownership Verification"
                 title="Ownership Verification"
                 description="Verify land ownership and property details."
-                to="/services/ownership-verification"
+                to="/ownership"
               />
               <ServiceCard
                 iconSrc={Mutation}
                 iconAlt="Mutation Services"
                 title="Mutation Services"
                 description="Apply and track land mutation applications."
-                to="/services/mutation-status"
+                to="/Mutation"
               />
             </div>
           </div>
@@ -380,7 +380,7 @@ function HomePage() {
               <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4 text-white">Quick Links</h4>
               <div className="space-y-2 sm:space-y-2.5 text-xs sm:text-sm text-blue-100/80">
                 <FooterLink label="Land Records" to="/land-records" />
-                <FooterLink label="Citizen Services" to="/cservices" />
+                <FooterLink label="Citizen Services" to="/services" />
                 <FooterLink label="Applications" to="/applications" />
                 <FooterLink label="Reports" to="/reports" />
               </div>
