@@ -1,5 +1,5 @@
 import digitalindia from "../assets/digitalindia.svg";
-import LandMap from "../assets/landMap.jpeg";
+import LandMap from "../assets/LandMap.jpeg";
 import AffiliatedDepartments from "../Components/affilated";
 import { Link } from "react-router-dom";
 import Landrecord from "../icons/Landrecord.png";
