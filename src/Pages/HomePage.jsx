@@ -379,7 +379,7 @@ function HomePage() {
             <div>
               <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4 text-white">Quick Links</h4>
               <div className="space-y-2 sm:space-y-2.5 text-xs sm:text-sm text-blue-100/80">
-                <FooterLink label="Land Records" to="/land-records" />
+                <FooterLink label="Land Records" to="/landrecords" />
                 <FooterLink label="Citizen Services" to="/services" />
                 <FooterLink label="Applications" to="/applications" />
                 <FooterLink label="Reports" to="/reports" />
@@ -399,7 +399,7 @@ function HomePage() {
             <div>
               <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4 text-white">Important Links</h4>
               <div className="space-y-2 sm:space-y-2.5 text-xs sm:text-sm text-blue-100/80">
-                <FooterLink label="Help & Support" to="/help-support" />
+                <FooterLink label="Help & Support" to="/help" />
                 <FooterLink label="Contact Us" to="/contact-us" />
                 <FooterLink label="Download Forms" to="/download-forms" />
                 <FooterLink label="RTI" to="/rti" />
@@ -447,7 +447,7 @@ function ServiceCard({ iconSrc, iconAlt, title, description, to = "/cservices" }
   );
 }
 
-/* Footer link with government-style chevron bullet */
+/* Footer link  */
 function FooterLink({ label, to }) {
   return (
     <Link

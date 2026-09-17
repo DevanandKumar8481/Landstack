@@ -27,8 +27,7 @@ export default function Header({ activePath = "/" }) {
   const utilityRef = useRef(null);
   const tricolorRef = useRef(null);
 
-  // Heights are measured (not hardcoded) because the utility bar wraps
-  // to a different height on mobile vs desktop.
+  // To a different height on mobile vs desktop.
   const [utilityH, setUtilityH] = useState(0);
   const [tricolorH, setTricolorH] = useState(0);
 
@@ -50,7 +49,7 @@ export default function Header({ activePath = "/" }) {
 
   return (
     <div>
-      {/* Utility bar — always stuck to the very top */}
+      {/* Utility bar */}
       <div
         ref={utilityRef}
         className="text-white text-xs sm:text-sm sticky top-0 z-[60]"
@@ -77,7 +76,7 @@ export default function Header({ activePath = "/" }) {
         </div>
       </div>
 
-      {/* Tricolor strip — sticks directly beneath the utility bar */}
+      {/* Tricolor strip */}
       <div
         ref={tricolorRef}
         className="h-1 flex shrink-0 sticky z-[55]"
@@ -88,7 +87,7 @@ export default function Header({ activePath = "/" }) {
         <div className="w-1/3 bg-green-600" />
       </div>
 
-      {/* Official header — scrolls away normally */}
+      {/* Official header  */}
       <header className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 py-4 sm:py-5">
           <div className="flex items-center justify-between gap-4">
@@ -132,12 +131,12 @@ export default function Header({ activePath = "/" }) {
       >
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between">
-            <div className="hidden md:flex">
+            <div className="hidden md:flex gap-2">
               {navItems.map((item) => (
                 <Link
                   key={item.label}
                   to={item.to}
-                  className={`px-5 py-4 text-sm font-medium flex items-center gap-1 transition-colors ${
+                  className={`px-5 py-4 text-sm font-medium flex items-center gap-2 transition-colors ${
                     activePath === item.to ? "bg-black/20 text-white" : "text-white/85 hover:bg-black/15 hover:text-white"
                   }`}
                 >

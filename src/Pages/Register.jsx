@@ -18,7 +18,7 @@ import {
 
 const NAVY = "#14283F";
 
-const STATES = ["Chandigarh", "Tamil Nadu", "Madhya Pradesh", "Other"];
+const STATES = ["Assam", "Tamil Nadu", "Madhya Pradesh", "Bihar","UttarPradesh","Jharkhand","Delhi"];
 
 const DEPARTMENTS = [
   "Revenue & Land Records",

@@ -5,8 +5,6 @@ import digitalindia from "../assets/digitalindia.svg";
 import SoI from "../assets/SoI.png";
 import DoLR from "../assets/DoLR.jpg";
 import Revenue from "../assets/Revenue.png";
-// import srrdLogo from "../assets/logos/srrd.png";
-// import ngpLogo from "../assets/logos/ngp.png";
 
 const NAVY = "#14283F";
 
@@ -41,19 +39,7 @@ const departments = [
         name: "Survey of India",
         tag: "SoI",
         url: "https://surveyofindia.gov.in",
-    },
-    // {
-    //     logo: srrdLogo,
-    //     name: "State Revenue & Registration Department",
-    //     tag: "SRRD",
-    //     url: "https://example.gov.in",
-    // },
-    // {
-    //     logo: ngpLogo,
-    //     name: "National Geospatial Programme",
-    //     tag: "NGP",
-    //     url: "https://ngp.gov.in",
-    // },
+    }
 ];
 
 function DepartmentCard({ logo, name, tag, url }) {

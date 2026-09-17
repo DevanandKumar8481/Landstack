@@ -14,6 +14,7 @@ import AllServicesPage from "./Pages/Services";
 import Applications from "./Pages/Applications";
 import Ownership from "./Pages/Ownership";
 import Mutation from "./Pages/Mutation";
+import Help from "./Pages/Help";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Applications" element={<Applications />} />
         <Route path="/ownership" element={<Ownership/>} />
         <Route path="/Mutation" element={<Mutation/>} />
+        <Route path="/help" element={<Help/>} />
       </Routes>
     </>
   );

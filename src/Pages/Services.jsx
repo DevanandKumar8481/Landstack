@@ -18,7 +18,6 @@ import {
   LayoutDashboard,
   ArrowRight,
   Users,
-  ShieldCheck,
 } from "lucide-react";
 
 const NAVY = "#14283F";
@@ -28,19 +27,19 @@ const citizenServices = [
     icon: Search,
     title: "Search Land Parcel",
     description: "Find a parcel by khasra number, owner, or location.",
-    to: "/services/search-parcel",
+    to: "/landrecords",
   },
   {
     icon: FileCheck,
     title: "Ownership Verification",
     description: "View Record of Rights (RoR) and ownership details.",
-    to: "/services/ownership-verification",
+    to: "/ownership",
   },
   {
     icon: Activity,
     title: "Track Mutation Status",
     description: "Monitor a mutation application's progress.",
-    to: "/services/mutation-status",
+    to: "/Mutation",
   },
   {
     icon: Receipt,
