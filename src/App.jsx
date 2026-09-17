@@ -15,6 +15,11 @@ import Applications from "./Pages/Applications";
 import Ownership from "./Pages/Ownership";
 import Mutation from "./Pages/Mutation";
 import Help from "./Pages/Help";
+import PropertyTax from "./Pages/PropertyTax";
+import BuildingPermission from "./Pages/Buildingpermission";
+import FieldManagement from "./Pages/FieldManagement";
+import LandRegistration from "./Pages/Landregistration";
+import PlanningZoning from "./Pages/planningZoning";
 
 function App() {
   return (
@@ -36,6 +41,12 @@ function App() {
         <Route path="/ownership" element={<Ownership/>} />
         <Route path="/Mutation" element={<Mutation/>} />
         <Route path="/help" element={<Help/>} />
+        <Route path="/PropertyTax" element={<PropertyTax/>} />
+        <Route path="/BuildingPermission" element={<BuildingPermission/>} />
+        <Route path="/FieldManagement" element={<FieldManagement/>} />
+        <Route path="/LandRegistration" element={<LandRegistration/>} />
+        <Route path="/planning-zoning" element={<PlanningZoning />} />
+        
       </Routes>
     </>
   );

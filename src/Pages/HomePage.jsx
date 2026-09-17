@@ -76,7 +76,7 @@ function HomePage() {
               className={`absolute inset-0 transition-opacity duration-1000 ${currentSlide === index ? "opacity-100" : "opacity-0 pointer-events-none"
                 }`}
             >
-              <img src={slide.image} alt="" className="w-full h-full object-cover" />
+              <img src={slide.image} alt="" className="w-full h-full object-contain" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
             </div>
           ))}

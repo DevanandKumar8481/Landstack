@@ -45,13 +45,13 @@ const citizenServices = [
     icon: Receipt,
     title: "Property Tax",
     description: "Check dues and past payment history.",
-    to: "/services/property-tax",
+    to: "/PropertyTax",
   },
   {
     icon: Building2,
     title: "Building Permission",
     description: "Apply for and track building approvals.",
-    to: "/services/building-permission",
+    to: "/BuildingPermission",
   },
   {
     icon: Scale,
@@ -72,7 +72,7 @@ const governmentServices = [
     icon: MapPinned,
     title: "Field Survey Management",
     description: "Coordinate and monitor field survey operations.",
-    to: "/gov/field-survey",
+    to: "/FieldManagement",
   },
   {
     icon: Map,
@@ -84,19 +84,19 @@ const governmentServices = [
     icon: FileSignature,
     title: "Land Registration",
     description: "Process and record new land registrations.",
-    to: "/gov/land-registration",
+    to: "/LandRegistration",
   },
   {
     icon: LayoutGrid,
     title: "Planning & Zoning",
     description: "Manage zoning classifications and land-use plans.",
-    to: "/gov/planning-zoning",
+    to: "/planning-zoning",
   },
   {
     icon: Landmark,
     title: "Property Tax Administration",
     description: "Administer tax assessments and collections.",
-    to: "/gov/property-tax-admin",
+    to: "/property-tax-admin",
   },
   {
     icon: BrainCircuit,
